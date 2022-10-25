@@ -3,26 +3,26 @@ body {
   background-color: #f8f8f8;
   color: #333;  font-family: Lato, sans-serif;
 }
-.aaa {
+.details-wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.details-wrapper img {
   width: 100%;
 }
-.aaa .more-inf {
+.details-wrapper .more-details {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa { text-align: center;
+  .details-wrapper { text-align: center;
   }
 
 }
-.centered-main-page-element {
+.todo-list-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
