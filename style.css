@@ -32,7 +32,8 @@
   margin: 0 auto 0;
 }
 
-.task-label, .task-input {
+.task-label, 
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -47,11 +48,14 @@
   padding: 0px;
 }
 
-.task-wrapper, .tasks-title {
+.task-wrapper, 
+.tasks-title {
   list-style: none;
 }
 
-.checkbox-input, .task-input, .button {
+.checkbox-input, 
+.task-input, 
+.button {
   outline: none;
 }
 
@@ -69,7 +73,8 @@
   color: #3a3A3a;
 }
 /* Heading */
-.tasks-title, .new-task-label {
+.tasks-title, 
+.new-task-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -117,7 +122,10 @@
   align-items: center;
 }
 
-.task-label, .button, .task-input, .checkbox-input {
+.task-label, 
+.button, 
+.task-input, 
+.checkbox-input {
   vertical-align: middle;
 }
 
@@ -157,7 +165,8 @@
   display: none;
 }
 
-.new-task-input, .edit-mode .task-input {
+.new-task-input,
+.edit-mode .task-input {
   display: inline-block;
   width: 224px;
 }
